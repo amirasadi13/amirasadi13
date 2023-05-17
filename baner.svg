@@ -71,7 +71,7 @@
         }
         
         .title_blue {
-          animation: flicker_blue 1.5s infinite alternate;     
+          animation: flicker_blue 4s infinite alternate;     
         }
         
         .title_yellow {
