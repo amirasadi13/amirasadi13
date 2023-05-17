@@ -2,8 +2,6 @@
     <img src="baner.svg" style="width: 100%; height: 500px;" alt="css-in-readme">
 </div>
 
-# Hi Guys 👋
-
 #### I'm Amir Mahdi Asadi, AMA sounds better 🤔
 ###### * Open to collaborating on interesting and innovative projects.
 ###### * Please check the projects below and tell me your ideas.
