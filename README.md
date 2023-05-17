@@ -1,10 +1,13 @@
-<img src="https://media.licdn.com/dms/image/D4E16AQHqD9VKuz4LDA/profile-displaybackgroundimage-shrink_350_1400/0/1674977627652?e=1689811200&v=beta&t=8nuttxPh6BGUCuI5TKCOTM8Zvb258bXcpL4zw43Q3j0"/>
+<div align="center">
+    <img src="baner.svg" style="width: 100%; height: 500px;" alt="css-in-readme">
+</div>
+
 # Hi Guys 👋
 
 #### I'm Amir Mahdi Asadi, AMA sounds better 🤔
 ###### * Open to collaborating on interesting and innovative projects.
 ###### * Please check the projects below and tell me your ideas.
-
+ -->
 - 🔭 I’m currently working on microservices architecture (specially event-driven systems) 
 <!--
 **amirasadi13/amirasadi13** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
