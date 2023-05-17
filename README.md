@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="baner.svg" style="width: 100%; height: 300px;" alt="css-in-readme">
+    <img src="baner.svg" style="width: 100%; height: 500px;" alt="css-in-readme">
 </div>
 
 # Hi Guys 👋
