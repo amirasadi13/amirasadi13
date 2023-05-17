@@ -18,59 +18,94 @@
           font-size: 10px;   
 
           /* Set neon color */
-          --neon-text-color: #0f0;
-          --neon-border-color: #0f06;
+          --neon-text-color-green: #0f0;
+          --neon-border-color-green: #0f0;
+        
+          --neon-text-color-red: #f00;
+          --neon-border-color-red: #f00;
+        
+          --neon-text-color-blue: #00f;
+          --neon-border-color-blue: #00f;
+        
+          --neon-text-color-pink: #00f;
+          --neon-border-color-pink: #00f;    
+        
+          --neon-text-color-yellow: #FFFF00;
+          --neon-border-color-yellow: #FFFF00;
+        
+          --neon-text-color-gray: #666;
+          --neon-border-color-gray: #666;
+             
+          --neon-text-color-orange: #FF5733;
+          --neon-border-color-orange: #FF5733;
         }
 
         .container {
           background-color: #010a00;
-          background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
-          background-size: 400% 400%;
 
-          width: 100%;
+          width: 800px;
           height: 500px;
+          
+          padding: 8px 0;
 
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          font-family: 'Microsoft Yi Baiti', sans-serif;
+          font-family: 'Yu Gothic', cursive;
         
         }
         
-        h1 {
-          font-size: 6rem;
+        .title {
+          font-size: 24px;
           font-weight: 900;
           color: #fff;
-          padding: 4rem 6rem 5.5rem;
           border: 0.4rem solid #fff;
           border-radius: 2rem;
-          text-transform: uppercase;
-          animation: flicker 1.5s infinite alternate;     
+          padding: 24px 16px;
+          margin: 8px;
         }
         
+        .title_green {
+          animation: flicker_green 1.5s infinite alternate;     
+        }
         
-        /* Animate neon flicker */
-        @keyframes flicker {
+        .title_red {
+          animation: flicker_red 1.5s infinite alternate;     
+        }
+        
+        .title_blue {
+          animation: flicker_blue 1.5s infinite alternate;     
+        }
+        
+        .title_yellow {
+          animation: flicker_yellow 1.5s infinite alternate;     
+        }
+        
+        .title_gray {
+          animation: flicker_gray 1.5s infinite alternate;     
+        }
+        
+        .title_orange {
+          animation: flicker_orange 1.5s infinite alternate;     
+        }
+        
+        @keyframes flicker_orange {
 
             0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
 
                 text-shadow:
                     -0.2rem -0.2rem 1rem #fff,
                     0.2rem 0.2rem 1rem #fff,
-                    0 0 2rem var(--neon-text-color),
-                    0 0 4rem var(--neon-text-color),
-                    0 0 6rem var(--neon-text-color),
-                    0 0 8rem var(--neon-text-color),
-                    0 0 10rem var(--neon-text-color);
+                    0 0 2rem var(--neon-text-color-orange),
+                    0 0 4rem var(--neon-text-color-orange),
+                    0 0 6rem var(--neon-text-color-orange),
+                    0 0 8rem var(--neon-text-color-orange),
+                    0 0 10rem var(--neon-text-color-orange);
 
                 box-shadow:
                     0 0 .5rem #fff,
                     inset 0 0 .5rem #fff,
-                    0 0 2rem var(--neon-border-color),
-                    inset 0 0 2rem var(--neon-border-color),
-                    0 0 4rem var(--neon-border-color),
-                    inset 0 0 4rem var(--neon-border-color);        
+                    0 0 2rem var(--neon-border-color-orange),
+                    inset 0 0 2rem var(--neon-border-color-orange),
+                    0 0 4rem var(--neon-border-color-orange),
+                    inset 0 0 4rem var(--neon-border-color-orange);        
             }
 
             20%, 24%, 55% {        
@@ -79,10 +114,173 @@
             }    
         }
         
+        @keyframes flicker_gray {
+
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+
+                text-shadow:
+                    -0.2rem -0.2rem 1rem #fff,
+                    0.2rem 0.2rem 1rem #fff,
+                    0 0 2rem var(--neon-text-color-gray),
+                    0 0 4rem var(--neon-text-color-gray),
+                    0 0 6rem var(--neon-text-color-gray),
+                    0 0 8rem var(--neon-text-color-gray),
+                    0 0 10rem var(--neon-text-color-gray);
+
+                box-shadow:
+                    0 0 .5rem #fff,
+                    inset 0 0 .5rem #fff,
+                    0 0 2rem var(--neon-border-color-gray),
+                    inset 0 0 2rem var(--neon-border-color-gray),
+                    0 0 4rem var(--neon-border-color-gray),
+                    inset 0 0 4rem var(--neon-border-color-gray);        
+            }
+
+            20%, 24%, 55% {        
+                text-shadow: none;
+                box-shadow: none;
+            }    
+        }
+        
+        
+        @keyframes flicker_yellow {
+
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+
+                text-shadow:
+                    -0.2rem -0.2rem 1rem #fff,
+                    0.2rem 0.2rem 1rem #fff,
+                    0 0 2rem var(--neon-text-color-yellow),
+                    0 0 4rem var(--neon-text-color-yellow),
+                    0 0 6rem var(--neon-text-color-yellow),
+                    0 0 8rem var(--neon-text-color-yellow),
+                    0 0 10rem var(--neon-text-color-yellow);
+
+                box-shadow:
+                    0 0 .5rem #fff,
+                    inset 0 0 .5rem #fff,
+                    0 0 2rem var(--neon-border-color-yellow),
+                    inset 0 0 2rem var(--neon-border-color-yellow),
+                    0 0 4rem var(--neon-border-color-yellow),
+                    inset 0 0 4rem var(--neon-border-color-yellow);        
+            }
+
+            20%, 24%, 55% {        
+                text-shadow: none;
+                box-shadow: none;
+            }    
+        }
+        
+        @keyframes flicker_blue {
+
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+
+                text-shadow:
+                    -0.2rem -0.2rem 1rem #fff,
+                    0.2rem 0.2rem 1rem #fff,
+                    0 0 2rem var(--neon-text-color-blue),
+                    0 0 4rem var(--neon-text-color-blue),
+                    0 0 6rem var(--neon-text-color-blue),
+                    0 0 8rem var(--neon-text-color-blue),
+                    0 0 10rem var(--neon-text-color-blue);
+
+                box-shadow:
+                    0 0 .5rem #fff,
+                    inset 0 0 .5rem #fff,
+                    0 0 2rem var(--neon-border-color-blue),
+                    inset 0 0 2rem var(--neon-border-color-blue),
+                    0 0 4rem var(--neon-border-color-blue),
+                    inset 0 0 4rem var(--neon-border-color-blue);        
+            }
+
+            20%, 24%, 55% {        
+                text-shadow: none;
+                box-shadow: none;
+            }    
+        }
+        
+        
+        /* Animate neon flicker */
+        @keyframes flicker_green {
+
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+
+                text-shadow:
+                    -0.2rem -0.2rem 1rem #fff,
+                    0.2rem 0.2rem 1rem #fff,
+                    0 0 2rem var(--neon-text-color-green),
+                    0 0 4rem var(--neon-text-color-green),
+                    0 0 6rem var(--neon-text-color-green),
+                    0 0 8rem var(--neon-text-color-green),
+                    0 0 10rem var(--neon-text-color-green);
+
+                box-shadow:
+                    0 0 .5rem #fff,
+                    inset 0 0 .5rem #fff,
+                    0 0 2rem var(--neon-border-color-green),
+                    inset 0 0 2rem var(--neon-border-color-green),
+                    0 0 4rem var(--neon-border-color-green),
+                    inset 0 0 4rem var(--neon-border-color-green);        
+            }
+
+            20%, 24%, 55% {        
+                text-shadow: none;
+                box-shadow: none;
+            }    
+        }
+        
+        @keyframes flicker_red {
+
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+
+                text-shadow:
+                    -0.2rem -0.2rem 1rem #fff,
+                    0.2rem 0.2rem 1rem #fff,
+                    0 0 2rem var(--neon-text-color-red),
+                    0 0 4rem var(--neon-text-color-red),
+                    0 0 6rem var(--neon-text-color-red),
+                    0 0 8rem var(--neon-text-color-red),
+                    0 0 10rem var(--neon-text-color-red);
+
+                box-shadow:
+                    0 0 .5rem #fff,
+                    inset 0 0 .5rem #fff,
+                    0 0 2rem var(--neon-border-color-red),
+                    inset 0 0 2rem var(--neon-border-color-red),
+                    0 0 4rem var(--neon-border-color-red),
+                    inset 0 0 4rem var(--neon-border-color-red);        
+            }
+
+            20%, 24%, 55% {        
+                text-shadow: none;
+                box-shadow: none;
+            }    
+        }
+        
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto;
+        }
+        .grid-item {
+          padding: 20px;
+          font-size: 30px;
+          text-align: center;
+        }
+        
       </style>
 
       <div class="container" style="border-radius: 16px;">
-        <h1 contenteditable="true" spellcheck="false">Amir Mahdi Asadi <br/> Python - Django </h1>
+        <div style="display: block; ">
+          <h1 contenteditable="true" spellcheck="false" class="title title_blue" style="padding: 50px 24px;">Hi Guys , Amir Mahdi Asadi </h1>
+        </div>
+        <div class="grid-container">
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Python </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_yellow">Django </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_red">Redis </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_orange">RabbitMQ </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_green">Celery </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_gray">Kafka </h1>
+        </div>
       </div>
     </div>
   </foreignObject>
