@@ -72,8 +72,8 @@
         }
       </style>
 
-      <div class="container" style="color:black;border-radius: 25px;">
-        <h1>Hi there, I'm <span style="font-weight: 900;">Amir Mahdi Asadi</span> a <div class="hi"> 🐍 </div></h1>
+      <div class="container" style="color:black;border-radius: 16px;">
+        <h2>Hi there, I'm <span style="font-weight: 900;">Amir Mahdi Asadi</span> a <div class="hi"> 🐍 </div></h2>
         <span style="font-weight: 900;"> Developer </span>
       </div>
     </div>
