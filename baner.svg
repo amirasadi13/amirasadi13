@@ -275,14 +275,14 @@
         </div>
         <div class="grid-container">
           <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Python </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_yellow">Django </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_red">Redis </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_orange">RabbitMQ </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_green">Celery </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_gray">Kafka </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_yellow">Git </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Django </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Redis </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">RabbitMQ </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Celery </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Kafka </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Git </h1>
           <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Docker </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_red">Postgresql </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Postgresql </h1>
         </div>
       </div>
     </div>
