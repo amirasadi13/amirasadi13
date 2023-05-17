@@ -73,7 +73,7 @@
       </style>
 
       <div class="container" style="color:black;">
-        <h2>Hi there, I'm <span style="font-weight: 900;">Amir Mahdi Asadi</span> a <div class="hi"> 🐍 </div></h2>
+        <h1>Hi there, I'm <span style="font-weight: 900;">Amir Mahdi Asadi</span> a <div class="hi"> 🐍 </div></h1>
         <span style="font-weight: 900;"> Developer </span>
       </div>
     </div>
