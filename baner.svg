@@ -1,5 +1,5 @@
 <svg fill="none" viewBox="0 0 1200 800" width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="800">
+  <foreignObject width="1200" height="800">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         @keyframes hi  {
@@ -44,7 +44,7 @@
         .container {
           background-color: #010a00;
 
-          width: 100%;
+          width: 1200px;
           height: 800px;
           
           padding: 8px 0 ;
