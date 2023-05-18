@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="baner.svg" style=" @media only screen(max-width: 792px){width: 100%; height: 800px;} width: 100%; height: 600px;" alt="css-in-readme">
+    <img src="baner.svg" style="width: 100vw; height: 600px;" alt="css-in-readme">
 </div>
 
 #### I'm Amir Mahdi Asadi, AMA sounds better 🤔
