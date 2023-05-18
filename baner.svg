@@ -1,5 +1,5 @@
-<svg fill="none" viewBox="0 0 800 520" width="800" height="520" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
+<svg fill="none" viewBox="0 0 800 800" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="800">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         @keyframes hi  {
@@ -17,6 +17,7 @@
           /* Base font size */
           font-size: 10px;   
 
+          --neon-text-color: #F806CC;
           /* Set neon color */
           --neon-text-color-green: #0f0;
           --neon-border-color-green: #0f0;
@@ -43,21 +44,16 @@
         .container {
           background-color: #010a00;
 
-          width: 800px;
-          height: 520px;
+          width: 100%;
+          height: 800px;
           
-          padding: 8px 0;
+          padding: 8px 0 ;
+          
 
           font-family: 'Yu Gothic', cursive;
         
         }
-        
-        @media and screen(max-length: 792px){
-           .container{
-              width: 100%;
-              height: 800px;
-           }
-        }
+       
         
         .title {
           font-size: 24px;
@@ -67,6 +63,16 @@
           border-radius: 2rem;
           padding: 24px 16px;
           margin: 8px;
+        }
+        
+        .skils{     
+          font-size: 18px !important;
+          font-weight: 900 !important;
+          color: #fff !important;
+          border: 0.4rem solid #fff !important;
+          border-radius: 2rem !important;
+          padding: 16px 8px !important;
+          margin: 8px !important;
         }
         
         .title_green {
@@ -128,11 +134,11 @@
                 text-shadow:
                     -0.2rem -0.2rem 1rem #fff,
                     0.2rem 0.2rem 1rem #fff,
-                    0 0 2rem var(--neon-text-color-gray),
-                    0 0 4rem var(--neon-text-color-gray),
-                    0 0 6rem var(--neon-text-color-gray),
-                    0 0 8rem var(--neon-text-color-gray),
-                    0 0 10rem var(--neon-text-color-gray);
+                    0 0 2rem var(--neon-text-color),
+                    0 0 4rem var(--neon-text-color),
+                    0 0 6rem var(--neon-text-color),
+                    0 0 8rem var(--neon-text-color),
+                    0 0 10rem var(--neon-text-color);
 
                 box-shadow:
                     0 0 .5rem #fff,
@@ -185,11 +191,11 @@
                 text-shadow:
                     -0.2rem -0.2rem 1rem #fff,
                     0.2rem 0.2rem 1rem #fff,
-                    0 0 2rem var(--neon-text-color-blue),
-                    0 0 4rem var(--neon-text-color-blue),
-                    0 0 6rem var(--neon-text-color-blue),
-                    0 0 8rem var(--neon-text-color-blue),
-                    0 0 10rem var(--neon-text-color-blue);
+                    0 0 2rem var(--neon-text-color),
+                    0 0 4rem var(--neon-text-color),
+                    0 0 6rem var(--neon-text-color),
+                    0 0 8rem var(--neon-text-color),
+                    0 0 10rem var(--neon-text-color);
 
                 box-shadow:
                     0 0 .5rem #fff,
@@ -266,7 +272,7 @@
         
         .grid-container {
           display: grid;
-          grid-template-columns: auto auto auto;
+          grid-template-columns: auto auto auto auto;
         }
         .grid-item {
           padding: 20px;
@@ -278,19 +284,27 @@
 
       <div class="container" style="border-radius: 16px;">
         <div style="display: block; ">
-          <h1 contenteditable="true" spellcheck="false" class="title title_blue" style="padding: 50px 24px;">Hi Guys , Amir Mahdi Asadi </h1>
+          <h1 contenteditable="true" spellcheck="false" class="title title_gray" style="padding: 50px 24px;">Hi Guys , I'm Amir Mahdi Asadi 🤝 
+           <br/>
+            I started developing from 2018, it's my pleasure to read my codes and send me your responses. 
+          </h1>
         </div>
         <div class="grid-container">
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Python </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Django </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Redis </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">RabbitMQ </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Celery </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Kafka </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Git </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Docker </h1>
-          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_blue">Postgresql </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Python </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Django </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Redis </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">RabbitMQ </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Celery </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Kafka </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Git </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Docker </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Postgresql </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">MongoDB </h1>
         </div>
+<!--         <br/>
+         <h1 contenteditable="true" spellcheck="false" class="grid-item title title_gray" style="position: fixed; bottom: 0;">
+          
+        </h1> -->
       </div>
     </div>
   </foreignObject>
