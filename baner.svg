@@ -42,7 +42,7 @@
         }
 
         .container {
-          background-color: #010a00;
+          background-color: #22272e;
 
           width: 1400px;
           height: 800px;
