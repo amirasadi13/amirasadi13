@@ -300,6 +300,7 @@
           <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Docker </h1>
           <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Postgresql </h1>
           <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">MongoDB </h1>
+          <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Django Channel </h1>
         </div>
 <!--         <br/>
          <h1 contenteditable="true" spellcheck="false" class="grid-item title title_gray" style="position: fixed; bottom: 0;">
