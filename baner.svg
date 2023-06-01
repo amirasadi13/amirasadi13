@@ -283,12 +283,6 @@
       </style>
 
       <div class="container" style="border-radius: 16px;">
-        <div style="display: block; ">
-          <h1 contenteditable="true" spellcheck="false" class="title title_blue" style="padding: 50px 24px;">Hi Guys , I'm Amir Mahdi Asadi 🤝 
-           <br/>
-            I started developing from 2018, it's my pleasure to read my codes and send me your responses. 
-          </h1>
-        </div>
         <div class="grid-container">
           <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Python </h1>
           <h1 contenteditable="true" spellcheck="false" class="grid-item skils title_blue">Django </h1>
