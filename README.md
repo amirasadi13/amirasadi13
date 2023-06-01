@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img src="baner.svg" id="image" style="width: 100vw; height: 600px;" alt="css-in-readme">
+    <img src="baner.svg" id="image" style="width: 100vw; height: 300px;" alt="css-in-readme">
 </div>
 
 <p style="text-align: justify;">
